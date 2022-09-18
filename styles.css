@@ -5,13 +5,20 @@ html, body{
     background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    
 }
 
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 #content {
     flex-grow: 1;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
 }
