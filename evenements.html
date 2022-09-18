@@ -9,9 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-success fs-2">
+<body class="fs-2">
 <!--Menu-->
-    <nav class="navbar navbar-dark navbar-expand-lg bg-dark fs-5 sticky-top">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark fs-5 fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Rétro-Viseur</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
                 <a class="nav-link" href="nosprojets.html">Nos Projets</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Evènements</a>
+                <a class="nav-link active" aria-current="page" href="evenements.html">Evènements</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="jeudumois.html">Le Jeu Du Mois</a>
@@ -39,10 +39,71 @@
         </div>
       </nav>
 <!--Fin Menu-->
-        <div id="content" class="container-md bg-white pb-4 shadow-lg" style="--bs-bg-opacity: .8;">
-          <p class="">Hellow</p>
+
+      <div id="content" class="container-md bg-white py-5  shadow-lg" style="--bs-bg-opacity: .8;">
+
+        <h2 class="my-5 text-center">Evènements à venir</h2>
+
+        <p class="text-center">Les évènements ont lieu dans les locaux de l'Association au 1 rue des Pixels à Shadow Moses. 
+          N'hésitez pas à proposer vos coups de coeur musicaux pour agrémenter les rencontres!</p>
+        <p class="text-center">Les modalités d'inscription sont rappelées sur la page de <a href="contacts.html">Contacts</a>.</p>
+        
+        <div class="d-flex flex-row flex-wrap card-deck">
+          <div class="card my-3 mx-auto text-center bg-light shadow" style="width: 18rem;">
+            <img src="media/mariokart.jpg" class="card-img-top" alt="Mario Kart Double Dash">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                Tournoi national de Mario Kart Double Dash</br>
+                <small class="text-muted fst-italic">8 & 9 Octobre 2022</small>
+              </h5>              
+              <p class="card-text my-2">Seul ou en équipes, affrontez vous pour remporter la course! Manettes de prêt disponibles, restauration possible sur place.</p>
+              <a href="contacts.html" class="btn btn-success mt-auto mb-4">Je m'inscris par mail!</a>
+            </div>
+          </div>
+
+          <div class="card my-3 mx-auto text-center bg-light shadow" style="width: 18rem;">
+            <img src="media/retro.webp" class="card-img-top" alt="Mario Kart Double Dash">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                Bourse aux Jeux</br>
+                <small class="text-muted fst-italic">19 & 20 Novembre 2022</small>
+              </h5>
+              <p class="card-text">Tu as de vieilles cartouches Nintendo, Sega, Atari, des disques PS1 ou autres que tu veux revendre? 
+                Réserve un emplacement pour LA grande Bourse aux Jeux de Shadow Moses!</p>
+              <a href="contacts.html" class="btn btn-success mt-auto mb-4">Je m'inscris par mail!</a>
+            </div>
+          </div>
+
+          <div class="card my-3 mx-auto text-center bg-light shadow" style="width: 18rem;">
+            <img src="media/noel.jpg" class="card-img-top" alt="Mario Kart Double Dash">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                Soirée de Noël</br>
+                <small class="text-muted fst-italic">17 & 18 Décembre 2022</small>
+              </h5>
+              <p class="card-text">Repas de Noël à l'asso! Avec bornes d'arcade, jeux familiaux et musique rock! Le menu et les 
+                frais d'inscription seront publiés prochainement.</p>
+              <a href="contacts.html" class="btn btn-success mt-auto mb-4">Je m'inscris par mail!</a>
+            </div>
+          </div>
+
+          <div class="card my-3 mx-auto text-center bg-light shadow" style="width: 18rem;">
+            <img src="media/melee.jpg" class="card-img-top" alt="Mario Kart Double Dash">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                Tournoi de Super SmashBros Melee</br>
+                <small class="text-muted fst-italic">14 & 15 Janvier 2023</small>
+              </h5>
+              <p class="card-text">Combattez vaillament, ou vous serez propulsés hors du ring! Les règles classiques de tournoi (consultables 
+              <a href="http://www.beatby44.fr/44-to-death/ssbm-regles-officielles-des-tournois/#:~:text=Si%20un%20match%20atteint%20la,terrain%20avec%20les%20m%C3%AAmes%20personnages.">ici</a>) s'appliquent.</p>
+              <a href="contacts.html" class="btn btn-success mt-auto mb-4">Je m'inscris par mail!</a>
+            </div>
+          </div>
+
         </div>
-         
+      </div>
+
+   
 <!--Footer-->
     <footer class="bg-dark text-center text-white fs-6">
     <div class="container p-2 pb-0">
@@ -61,8 +122,7 @@
     <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
       <p>© 2020 
         <a class="text-white" href="https://nicolasfrotey.fr/">LaconisDev</a> | 
-        <a class="text-white" href="contacts.html">Contacts</a> | 
-        <a class="text-white" href="#">Mentions Légales</a>
+        <a class="text-white" href="contacts.html">Contacts</a>
       </p>
     </footer>
 <!--Fin Footer-->

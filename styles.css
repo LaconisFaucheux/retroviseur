@@ -1,5 +1,10 @@
 html, body{
     height: 100%;
+    background-image: url(media/paperGAMEBOYbase2.jpg);
+    background-position: center top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 body {
@@ -10,4 +15,3 @@ body {
 #content {
     flex-grow: 1;
 }
-
